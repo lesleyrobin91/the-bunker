@@ -170,6 +170,27 @@ footer p{
 }
 
 
+/* Explore Page */
+
+.explore-page a {
+    padding: 1rem;
+    display: block; 
+    border: 1px solid;
+    margin-bottom: 0.5rem;
+}
+
+.explore-page .featured {
+    background-color: #4e91ad;
+    color: white;
+    border: 1px solid #4e91ad;
+}
+
+.explore-page .featured:hover{
+    color: #4e91ad;
+    background-color: white;
+    border: 1px solid #4e91ad;
+}
+
 /* SM max-width in pixels approximately 48*16 */
 @media(max-width: 48em) {
 
